@@ -1,0 +1,167 @@
+body, html {
+    height: 200vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Positioning below */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.header,
+.content-one,
+.content-two,
+.content-three,
+.content-four,
+.footer {
+    padding: 0 200px;
+}
+
+.header,
+.content-one,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.content-one,
+.content-two,
+.content-three,
+.content-four {
+    display: flex;
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header > h2 {
+    color: #f9faf8;
+    font-size: 30px;
+}
+
+.header-links > ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header-links > ul > li > a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-one {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content-one-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-one-image > img {
+    width: 700px;
+    outline: 4px solid gray;
+    border-radius: 5px;
+}
+
+.content-one-text > h1 {
+    color: #faf9f8;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 6px 0 5px #c61a1a;
+}
+
+.content-one-text > p {
+    color: #e5e7eb;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.button {
+    display: flex;
+}
+
+.button > button {
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.content-two > h2 {
+    color: #1F2937;
+    font-size: 50px;
+}
+
+.content-three {
+    background-color: #e5e7eb;
+}
+
+.content-two {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-two-images {
+    display: flex;
+    gap: 30px;
+}
+
+.content-two-images > .images {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.images > .img {
+    width: 200px;
+    height: 150px;
+    outline: 5px solid #3882f6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img > img {
+    max-width: 100%;
+}
+
+.subtext > p {
+    font-size: 30px;
+    color: #e5e7eb;
+    text-shadow: 1px 1px 2px black;
+}
+
+
