@@ -120,12 +120,6 @@ button {
     border: none;
 }
 
-.button > button:hover {
-    background-color: red;
-    text-shadow: 10px 0px 4px #800606;
-    box-shadow: 0 0 5px 5px black;
-}
-
 .content-two > h2 {
     color: #1F2937;
     font-size: 50px;
@@ -245,16 +239,29 @@ button {
     font-weight: bold;
 }
 
-.content-four-button > button:hover {
-    background-color: red;
-    text-shadow: 10px 0px 4px #800606;
-    box-shadow: 0 0 5px 5px black;
-}
-
 .footer {
     padding: 40px 0;
     font-size: 1.5em;
 }
 
+/* Pseudo-class */
 
 
+.content-four-button>button:hover {
+    background-color: red;
+    text-shadow: 10px 0px 4px #800606;
+    box-shadow: 0 0 5px 5px black;
+}
+
+.button>button:hover {
+    background-color: red;
+    text-shadow: 10px 0px 4px #800606;
+    box-shadow: 0 0 5px 5px black;
+}
+
+.img:has(.one:hover),
+.img:has(.two:hover),
+.img:has(.three:hover),
+.img:has(.four:hover) {
+    outline: 5px solid #800606;
+}
