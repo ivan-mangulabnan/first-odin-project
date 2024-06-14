@@ -199,7 +199,7 @@ button {
     flex: 1;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 50px 100px;
+    padding: 30px 100px;
     display: flex;
     border-radius: 40px;
 }
@@ -219,7 +219,7 @@ button {
 }
 
 .content-four-text > h3 {
-    font-size: 4em;
+    font-size: 3.7em;
 }
 
 .content-four-text > p {
@@ -235,6 +235,10 @@ button {
     font-weight: bold;
 }
 
+.footer {
+    padding: 40px 0;
+    font-size: 1.5em;
+}
 
 
 
