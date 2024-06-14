@@ -116,6 +116,7 @@ button {
     padding: 10px 15px;
     border-radius: 15px;
     font-weight: bold;
+    border: none;
 }
 
 .content-two > h2 {
@@ -180,6 +181,7 @@ button {
     justify-content: center;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
+    gap: 20px;
 }
 
 .container > .author {
@@ -187,5 +189,52 @@ button {
     align-self: flex-end;
     font-weight: bold;
 }
+
+.content-four {
+    justify-content: center;
+    align-items: center;
+}
+
+.content-four-container {
+    flex: 1;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 40px;
+}
+
+.content-four-container > .content-four-text {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0;
+    gap: 10px;
+}
+
+.content-four-container > .content-four-button {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-four-text > h3 {
+    font-size: 4em;
+}
+
+.content-four-text > p {
+    font-size: 2.2em;
+}
+
+.content-four-button > button {
+    font-size: 3em;
+    padding: 10px 30px;
+    border-radius: 15px;
+    outline: 3px solid white;
+    border: none;
+    font-weight: bold;
+}
+
+
 
 
