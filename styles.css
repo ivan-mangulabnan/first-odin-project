@@ -147,15 +147,17 @@ button {
 }
 
 .images > .img {
-    width: 200px;
-    height: 150px;
+    width: 360px;
+    height: 360px;
     outline: 5px solid #3882f6;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .img > img {
-    max-width: 100%;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
 }
 
 .subtext > p {
@@ -164,4 +166,8 @@ button {
     text-shadow: 1px 1px 2px black;
 }
 
+.img > .two,
+.img > .four {
+    object-position: top center;
+}
 
