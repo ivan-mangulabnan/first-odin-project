@@ -52,24 +52,27 @@ button {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.header > h2 {
-    color: #f9faf8;
-    font-size: 30px;
+.header > .logo-container {
+    display: flex;
+}
+
+.logo {
+    width: 300px;
 }
 
 .header-links > ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 25px;
 }
 
 .header-links > ul > li > a {
     color: #e5e7eb;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .footer {
@@ -86,7 +89,7 @@ button {
 .content-one-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 .content-one-image > img {
@@ -97,7 +100,7 @@ button {
 
 .content-one-text > h1 {
     color: #faf9f8;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bolder;
     text-shadow: 6px 0 5px #c61a1a;
 }
@@ -105,7 +108,7 @@ button {
 .content-one-text > p {
     color: #e5e7eb;
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .button {
@@ -123,13 +126,6 @@ button {
 .content-two > h2 {
     color: #1F2937;
     font-size: 50px;
-}
-
-.content-three {
-    background-color: #e5e7eb;
-    box-shadow: 0 0 3px 4px #e5e7eb;
-    display: flex;
-    justify-content: center;
 }
 
 .content-two {
@@ -177,19 +173,25 @@ button {
     object-position: top center;
 }
 
+.content-three {
+    background-color: #e5e7eb;
+    box-shadow: 0 0 3px 4px #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
 .content-three > .container {
     display: flex;
+    flex: 0 0 1200px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
     gap: 20px;
 }
 
-.container > .author {
-    flex-direction: column;
-    align-self: flex-end;
+.container > div {
     font-weight: bold;
 }
 
@@ -264,4 +266,16 @@ button {
 .img:has(.three:hover),
 .img:has(.four:hover) {
     outline: 5px solid #800606;
+}
+
+.home:hover,
+.updates:hover,
+.logout:hover {
+    text-shadow: 6px 0 5px #c61a1a;
+}
+
+.quote:hover {
+    color: white;
+    font-weight: bold;
+    text-shadow: 6px 0 5px #750c0c;
 }
