@@ -6,7 +6,7 @@ For the top-most image: <a href="https://wallpapers.com/images/featured/ragnar-l
 
 Characters:
 
-<a href="https://www.looper.com/img/gallery/vikings-creator-on-why-he-chose-ragnar-as-his-focus-exclusive/intro-1610473187.jpg" target="_blank">RAGNAR</a>
-<a href="https://cdna.artstation.com/p/assets/images/images/057/352/402/large/justyna-karpowicz-lagertatime2.jpg?1671383740" target="_blank">LAGERTHA</a>
-<a href="https://surflegacy.net/wp-content/uploads/2023/10/FLOKI-1200x1200.jpg" target="_blank">FLOKI</a>
-<a href="https://cdn.shopify.com/s/files/1/0028/3600/4976/files/rollo-vikings.jpg?v=1541754655" target="_blank">ROLLO</a>
+<a href="https://www.looper.com/img/gallery/vikings-creator-on-why-he-chose-ragnar-as-his-focus-exclusive/intro-1610473187.jpg" target="_blank">RAGNAR</a> = https://www.looper.com <br>
+<a href="https://cdna.artstation.com/p/assets/images/images/057/352/402/large/justyna-karpowicz-lagertatime2.jpg?1671383740" target="_blank">LAGERTHA</a> = https://cdna.artstation.com/<br>
+<a href="https://surflegacy.net/wp-content/uploads/2023/10/FLOKI-1200x1200.jpg" target="_blank">FLOKI</a> = https://surflegacy.net/<br>
+<a href="https://cdn.shopify.com/s/files/1/0028/3600/4976/files/rollo-vikings.jpg?v=1541754655" target="_blank">ROLLO</a> = https://cdn.shopify.com/ <br>
