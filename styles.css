@@ -125,6 +125,8 @@ button {
 
 .content-three {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
 }
 
 .content-two {
@@ -170,4 +172,20 @@ button {
 .img > .four {
     object-position: top center;
 }
+
+.content-three > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container > .author {
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 
